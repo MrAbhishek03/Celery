@@ -22,7 +22,9 @@ def about(request):
     print("about page: You are in about page")
     return render(request, 'about.html')
 
-
+def home_page(request):
+    print("about page: ")
+    return render(request, 'about.html')
 
 
 def results(request,id):
