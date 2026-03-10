@@ -19,7 +19,7 @@ def index(request):
     return render(request, 'home.html', {'result1': result1, 'result2': result2} )
 
 def about(request):
-    print("about page: ")
+    print("about page: You are in about page")
     return render(request, 'about.html')
 
 def home_page(request):
