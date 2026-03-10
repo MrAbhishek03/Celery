@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .about-section {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .about-section h2 {
+            font-size: 36px;
+            color: #0d6efd;
+            margin-bottom: 15px;
+        }
+
+        .about-section p {
+            font-size: 17px;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .about-boxes {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            background: white;
+            padding: 25px;
+            flex: 1;
+            min-width: 260px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .box h3 {
+            color: #0d6efd;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: #aaa;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MyWebsite</h1>
+        <nav>
+            <a href="/api/index">Home</a>
+            <a href="/api/about">About</a>
+            <a href="/api/results">Services</a>
+            <a href="/api/contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about-section">
+        <h2>About Us</h2>
+        <p>
+            Welcome to <strong>MyWebsite</strong>. We are dedicated to building modern,
+            reliable, and user-friendly digital solutions that help businesses grow
+            and succeed in today’s fast-paced world.
+        </p>
+
+        <p>
+            Our team focuses on clean design, secure systems, and scalable
+            architecture. Whether it's a small website or a complex web application,
+            we believe in delivering quality with performance.
+        </p>
+
+        <div class="about-boxes">
+            <div class="box">
+                <h3>Our Mission</h3>
+                <p>
+                    To create high-quality web applications that solve real-world
+                    problems and provide great user experiences.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Our Vision</h3>
+                <p>
+                    To become a trusted technology partner by delivering innovative,
+                    secure, and scalable digital products.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Why Choose Us</h3>
+                <p>
+                    ✔ Clean & modern UI<br>
+                    ✔ Secure development<br>
+                    ✔ Responsive design<br>
+                    ✔ Reliable support
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 MyWebsite. All rights reserved.
+    </footer>
+
+</body>
+</html>
