@@ -22,14 +22,7 @@ def about(request):
     print("about page: ")
     return render(request, 'about.html')
 
-# def results(request):
-#     result=add.delay(4, 6)
-#     print("-*"*20)
-#     print(f"results page: {result}")
-#     print(f"results state: {result.state}")
-#     print(f"results status: {result.status}")
-#     print("-*"*20)
-#     return render(request, 'result.html', {'result': result}    )
+
 
 
 def results(request,id):
